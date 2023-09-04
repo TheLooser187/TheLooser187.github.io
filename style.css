@@ -68,3 +68,10 @@ color: white;
   text-decoration: none;
   margin-bottom: 10px;
 }
+
+#footer {
+  display: fixed;
+  float:bottom;
+  font-size: 18px;
+}
+
