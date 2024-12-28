@@ -4,13 +4,15 @@ body {
   overflow: hidden;
 }
 
-#background-video {
+.background {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 110%;
+  background-image: url('back1.gif'); /* Ścieżka do GIF-a */
+  background-size: cover;
+  background-position: center;
   z-index: -1;
 }
 
